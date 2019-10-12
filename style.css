@@ -1,0 +1,41 @@
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #FF5E33;
+}
+nav.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+}
+nav.menu ul li{
+    display: inline-block;
+    
+}
+
+
+.wrapper {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center
+  }
+
+  h1 {
+    font-family: monospace;
+    padding: 20px;
+  }
+
+#para {
+    font-family: monospace;
+    font-size: 20px;
+
+
+
+
+
+  

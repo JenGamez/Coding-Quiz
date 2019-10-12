@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="menu">
+        <ul class="menu-left">
+            <li><a class="View-Highscores">Coding Quiz</a></li>
+        </ul>
+        <ul class="menu-right">
+            <li><a class="Timer">TIMER:</a></li>
+            <li><a class="Timer-Countdown">60</a></li>
+            <li><a class="Text-Seconds">seconds remaining</a></li>
+        </ul>
+       
+    </nav>
+
+
+    <div class="wrapper">
+        <h1 id="head">CODING QUIZ CHALLENGE</h1>
+        
+
+        <p id="para">Try to answer the 10 following code-related questions within the 60 second time limit.</p>
+
+            <div id="quiz"></div>
+            
+            <button id="start">Start Quiz</button>
+
+            <div id="results"></div>
+
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
